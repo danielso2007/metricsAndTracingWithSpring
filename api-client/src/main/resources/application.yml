@@ -3,7 +3,20 @@ spring:
     name: api-client
   profiles:
     active:
-    - prod
+    - ${AMBIENTE:prod}
 
 server:
   port: 9891
+
+wavefront:
+  application:
+   name: console-availability
+
+management:
+  wavefront:
+    source: my-cloud-server
+
+availability:
+  client:
+    url: ${CLIENT_URL:http://localhost:9892}
+    path: ${PATH_API:/availability/{console}}
