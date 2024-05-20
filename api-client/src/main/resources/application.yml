@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: api-client
+  profiles:
+    active:
+    - prod
+
+server:
+  port: 9891

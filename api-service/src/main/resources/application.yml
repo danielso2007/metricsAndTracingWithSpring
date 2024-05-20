@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: api-service
+  profiles:
+    active:
+    - prod
+
+server:
+  port: 9892
