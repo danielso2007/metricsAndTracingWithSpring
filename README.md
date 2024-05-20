@@ -1,3 +1,5 @@
+[![Teste do projeto](https://github.com/danielso2007/metricsAndTracingWithSpring/actions/workflows/maven-publish.yml/badge.svg)](https://github.com/danielso2007/metricsAndTracingWithSpring/actions/workflows/maven-publish.yml)
+
 # metricsAndTracingWithSpring
 Metrics and Tracing with Spring
 
