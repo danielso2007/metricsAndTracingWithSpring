@@ -25,9 +25,6 @@ management:
     source: daniel-spring-cloud-server-metric
     api-token: b2df6c19-b00e-4f3c-87ce-ac1ee74bab63
     uri: https://wavefront.surf
-  tracing:
-    sampling:
-      probability: 1.0
 
 availability:
   client:
